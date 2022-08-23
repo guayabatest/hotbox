@@ -1,0 +1,89 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: rgb(186, 242, 122);
+}
+
+.hero_header {
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 0;
+
+}
+
+.hero_header .logo{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.header_right p{
+    font-family: 'Lato', sans-serif;
+}
+
+.header_right .menu {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 4rem;
+    letter-spacing: 2px;
+}
+
+.hero_main {
+    display: flex;
+    padding-inline: 4rem;
+}
+
+.hero_main > div {
+    flex: 1;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+.main_text h4 {
+   font-weight: 300;
+    font-size: 1,2rem; 
+    border: 2px dashed #bb4720;
+    width: max-content;
+    padding:  .6rem;
+    padding-bottom: .4rem;
+}
+
+.main_text h2 {
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.main_text h3 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.main_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5rem;
+}
+
+.main_img img {
+    max-width: 500px;
+}
